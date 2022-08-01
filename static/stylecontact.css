@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    margin :7px;
+}
+
+.button{
+  margin :9px;
+  padding:9px;
+  background-color:#b38164 ;
+  border-radius: 8px;
+ 
+  font-weight: bold;
+}
+
+.myinput{
+    display: block;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 15px;
+    padding :12px;
+    border: 2px solid black;
+    border-radius: 8px;
+
+
+}

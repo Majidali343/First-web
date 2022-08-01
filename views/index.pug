@@ -1,0 +1,64 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+      nav#navbar 
+       ul 
+          div#logo
+           img(src="/static/img/logo.png")
+          li #[a(href='/') Home]
+          li #[a(href='/contact') Contact]
+          li #[a(href='/') Services]
+          li #[a(href='/') About]
+          li #[a(href='/') Our Vision]
+      
+      section#introsection
+       div welcome to our dance center 
+       div enjoy with us and have a good time with us
+      
+      section#missionsection
+       h2 our mission 
+       div.card
+        h3 This is my dance club
+
+        div.card-box
+          div.card-img
+             img(src="/static/img/cards.jpg")
+          div.card-content
+               p This is the best dance acedemy in universe
+
+       div.card
+        h3 Come and enjoy here
+         div.card-box
+          div.card-img
+             img(src="/static/img/cards.jpg")
+          div.card-content
+               p This is the best dance acedemy in universe
+
+       div.card
+        h3 Best teachears are here
+        div.card-box
+          div.card-img
+             img(src="/static/img/cards.jpg")
+          div.card-content
+               p This is the best dance acedemy in universe
+
+      section#sponsersection 
+        br
+        div <strong> wellcome to the sponser section
+         #spsection 
+           img(src="/static/img/apple.png", alt="sponser image" class="spimage")
+           img(src="/static/img/dell.png", alt="sponser image" class="spimage")
+           img(src="/static/img/google.png", alt="sponser image" class="spimage")
+           img(src="/static/img/hp.png", alt="sponser image" class="spimage")
+           img(src="/static/img/insta.png", alt="sponser image" class="spimage")
+
+
+
+  footer#footer 
+   large  &copy; Copyright 2022, Example Corporation
+
+script
+      include ../static/index.js

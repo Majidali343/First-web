@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+#navbar{
+    background-color: #b38164;
+    font-family:sans-serif ;
+    font-size: 1rem;
+   padding-top: 22px;
+    height: 80px;
+    font-weight: bold;
+   
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+}
+#navbar ul img{
+    height: 50px;
+    filter: invert(1);
+    margin-top: 0px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img img{
+    height:150px;
+    width: 150px;
+    margin-left: 0px;
+}
+.card-img {
+    height:inherit;
+}
+
+.card-content
+{
+    font-size: 1rem;
+    margin-left: 0px;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+   text-decoration: none;
+    padding: 13px 20px;
+    color: aliceblue;
+}
+#navbar li a:hover{
+    color: rgb(104, 13, 13);  
+}
+
+#sponsersection{
+    background-color:rgb(104, 13, 13);
+    height: 370px;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+.spimage{
+margin: 2px;
+padding: 7px;
+}
+#spsection img{
+height: 250px;
+width: 250px;
+
+}
+#missionsection{
+    background-color:rgb(255, 255, 255);
+    height: 300px;
+    text-align: center;
+    color:rgb(104, 13, 13);
+    font-size: 1.5rem;
+
+}
+.card{
+    margin: 12px 13px;
+    border: 2px solid brown;
+    border-radius: 4px;
+    height: 220px;
+    width: 350px;
+    display: inline-block;
+}
+.card h3{
+    text-align: center;
+     margin-top:10px ;
+}
+#introsection{
+    background:url('/static/bg.jpg') no-repeat center center/cover;
+   height: 400px;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bold;
+   justify-content: center;
+   align-items: center;
+   font-size: 2rem;
+   
+}
+
+#footer{
+    background-color: rgb(13, 13, 15);
+    height: 50px;
+    margin-bottom: 0px;
+    color: white;
+    display:block;
+    padding-top: 19px;
+    text-align: center;
+}
